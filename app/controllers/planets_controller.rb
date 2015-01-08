@@ -1,5 +1,5 @@
 class PlanetsController < ApplicationController
-
+	# belongs_to :galaxy
 	def index
 
 	end
