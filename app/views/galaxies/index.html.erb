@@ -1,7 +1,15 @@
 <h1>~~Galaxies~~</h1>
-<ul> <% @different_galaxies.each do |galaxy|  %>
+<!-- <ul> <% @different_galaxies.each do |galaxy|  %>
 	<li>
 		<%= p galaxy %>
 	</li>
 <% end %>
-</ul>
+</ul> -->
+<ol>Different galaxies
+<% @galaxies.each do |galaxy| %>
+
+<li>
+	<%= galaxy.name %>: <%= galaxy.desc %>
+</li>
+<% end %>
+</ol>
